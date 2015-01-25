@@ -2,6 +2,13 @@
 
 A vagrant plugin to simulate a cpu burn failure on a node
 
+The plugin allows you to make a **burn-cpu** failure to a vagrant node, after installation
+all you have to do is the following
+
+```
+vagrant burn-cpu [node_name]
+```
+
 
 # Usage in ``VagrantFile``
 
