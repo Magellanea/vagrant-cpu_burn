@@ -29,6 +29,11 @@ module VagrantPlugins
         require_relative "cpuburn"
         CPUBurn
       end
+      
+      command "burn-cpu-kill" do
+        require_relative "cpuburn_kill"
+        CPUBurnKill
+      end
 
     end
   end
